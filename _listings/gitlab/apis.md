@@ -13,9 +13,9 @@ modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/approve/master/_listings/gitlab/apis.md
 specificationVersion: "0.14"
 apis:
-- name: GitLab
-  x-api-slug: gitlab
-  description: ""
+- name: API title - Put Groups Access Requests User Approve
+  x-api-slug: v3groupsidaccess-requestsuser-idapprove-put
+  description: This feature was introduced in GitLab 8.11.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png
   humanURL: http://gitlab.com
   baseURL: https://localhost:3000//api
@@ -25,34 +25,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/approve/master/_listings/gitlab/v3groupsidaccess-requestsuser-idapprove-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/approve/master/_listings/gitlab/v3groupsidaccess-requestsuser-idapprove-put-openapi.md
-- name: GitLab
-  x-api-slug: gitlab
-  description: ""
+- name: API title - Put Projects Access Requests User Approve
+  x-api-slug: v3projectsidaccess-requestsuser-idapprove-put
+  description: This feature was introduced in GitLab 8.11.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png
   humanURL: http://gitlab.com
   baseURL: https://localhost:3000//api
   tags: Orchestration, Code, Static, Versions, Relative Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/approve/master/_listings/gitlab/v3groupsidaccess-requestsuser-idapprove-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/approve/master/_listings/gitlab/v3groupsidaccess-requestsuser-idapprove-put-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/approve/master/_listings/gitlab/v3projectsidaccess-requestsuser-idapprove-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/approve/master/_listings/gitlab/v3projectsidaccess-requestsuser-idapprove-put-openapi.md
-- name: GitLab
-  x-api-slug: gitlab
-  description: GitLab is a web-based Git-repository manager with wiki, issue-tracking
-    and CI/CD pipelines features, using an open-source license, developed by GitLab
-    Inc.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png
-  humanURL: http://gitlab.com
-  baseURL: https://localhost:3000//api
-  tags: Approve
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/approve/master/_listings/gitlab/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://github.api.gallery.streamdata.io

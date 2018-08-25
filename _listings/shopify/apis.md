@@ -14,9 +14,9 @@ modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/approve/master/_listings/shopify/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Shopify
-  x-api-slug: shopify
-  description: todo-add-description
+- name: Shopify API - Approve a comment
+  x-api-slug: admincomments2941387470approve-json-post
+  description: Approve a comment.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png
   humanURL: https://www.shopify.com/
   baseURL: https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//
@@ -26,19 +26,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/approve/master/_listings/shopify/admincomments2941387470approve-json-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/approve/master/_listings/shopify/admincomments2941387470approve-json-post-openapi.md
-- name: Shopify
-  x-api-slug: shopify
-  description: Shopify is a commerce platform that allows anyone to easily sell online
-    at a retail location and everywhere in between. It offers a professional online
-    storefront, a payment solution to accept credit cards, and the Shopify POS application
-    to power retail sales.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png
-  humanURL: https://www.shopify.com/
-  baseURL: https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//
-  tags: Approve
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/approve/master/_listings/shopify/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://ship.station.api.gallery.streamdata.io
