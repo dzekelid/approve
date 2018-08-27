@@ -12,11 +12,35 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1208-versa
 x-kinRank: "9"
 x-alexaRank: "410909"
 tags: Approve
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/approve/master/_listings/versapay/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: VersaPay API Reference - Approve a Transaction
+  x-api-slug: apitransactionstokenapprove-post
+  description: |-
+    Approve a `new` or `wait_for_request_approval` transaction.<br>
+    An API key with administrative access is required to approve a transaction.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1208-versapay-corporation.jpg
+  humanURL: http://developers.versapay.com/index.html
+  baseURL: https://secure.versapay.com//
+  tags: Billing, Checking, Payments, Payments, Stack Network, Financial Services,
+    Technology, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/approve/master/_listings/versapay/apitransactionstokenapprove-post-openapi.md
+- name: VersaPay API Reference - Approve an Agreement
+  x-api-slug: apidebit-agreementstokenapprove-post
+  description: Approve an agreement.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1208-versapay-corporation.jpg
+  humanURL: http://developers.versapay.com/index.html
+  baseURL: https://secure.versapay.com//
+  tags: Billing, Checking, Payments, Payments, Stack Network, Financial Services,
+    Technology, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/approve/master/_listings/versapay/apidebit-agreementstokenapprove-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://venmo.api.gallery.streamdata.io
